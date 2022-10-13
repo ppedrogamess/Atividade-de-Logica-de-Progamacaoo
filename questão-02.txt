@@ -1,0 +1,32 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro ar 
+		cadeia n,r
+		escreva ("Informe o nível de risco de 0 a 10:")
+		leia(ar)
+		
+		se ( ar >= 9){
+		    escreva("Risco GRAVE!")
+		    escreva("\nInforme seu nome: ")
+		    leia (n)
+		    escreva("\nInforme nome da rua:")
+			leia (r)
+			escreva (n ," você deve sair da sua residência agora mesmo!")
+			escreva ("\nA rua ", r, "está interditada!")
+		}senao{
+		  escreva ("Não tem perigo fique tranquilo!")
+		}
+		
+		 
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

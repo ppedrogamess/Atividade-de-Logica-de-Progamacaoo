@@ -1,0 +1,36 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		
+		real x,y,z,somy,somx,somz
+		
+		escreva("informe a medida do lado y: ")
+		leia(y)
+		escreva("informe a medida do lado x:" )
+		leia(x)
+		escreva("informe a medida do lado z: ")
+		leia(z)
+		
+		se((y<x+z) e (x<y+z) e (z<x+y)){
+			escreva("formam um triangulo")
+		}senao{
+			escreva("não formam um triangulo")
+		}
+			
+			
+		
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
